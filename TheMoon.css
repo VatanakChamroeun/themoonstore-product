@@ -1,43 +1,58 @@
 h1.heading{
-    color: darkgoldenrod;
-    padding-top: 20px;
-    
+  color: darkgoldenrod;
+  padding-top: 20px;
+  
 }
 
 div div img{
-    height: 100%;
+  height: 100%;
 }
 
 /*nav bar*/
 ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-  background-color: green;
+list-style-type: none;
+margin: 0;
+padding: 0;
+overflow: hidden;
+background-color: green;
 }
 
 li {
-  float: left;
+float: left;
 }
 
 li a {
-  display: block;
-  color: white;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
+display: block;
+color: white;
+text-align: center;
+padding: 14px 16px;
+text-decoration: none;
 }
 
 li a:hover {
-  text-decoration-color: white;
-  /* background-color: darkgreen; */
+text-decoration-color: white;
+/* background-color: darkgreen; */
 }
 
+/* Caption text */
+.text {
+color: #f2f2f2;
+font-size: 15px;
+padding: 8px 12px;
+position: absolute;
+bottom: 8px;
+width: 100%;
+text-align: center;
+}
+
+ul li a.active, .dot:hover {
+background-color: darkgreen;
+}
 
 /* footer */
 .footer {
-  background: black;
-  height: 400px;
-  color: white;  
+background: black;
+height: 400px;
+color: white;  
 }
+
