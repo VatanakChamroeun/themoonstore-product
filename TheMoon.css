@@ -1,0 +1,43 @@
+h1.heading{
+    color: darkgoldenrod;
+    padding-top: 20px;
+    
+}
+
+div div img{
+    height: 100%;
+}
+
+/*nav bar*/
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: green;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  text-decoration-color: white;
+  /* background-color: darkgreen; */
+}
+
+
+/* footer */
+.footer {
+  background: black;
+  height: 400px;
+  color: white;  
+}
