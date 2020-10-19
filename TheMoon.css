@@ -49,6 +49,11 @@ ul li a.active, .dot:hover {
 background-color: darkgreen;
 }
 
+hr.new {
+  border: 10px solid green;
+  border-radius: 5px;
+}
+
 /* footer */
 /* .footer {
 background: black;
